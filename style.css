@@ -1,0 +1,204 @@
+:root{
+    --ko: red;
+    --papir: rgb(0, 0, 143);
+    --ollo: goldenrod;
+}
+
+
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 66);
+    color: white;
+}
+
+
+
+.keret{
+    border: 2px white solid;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    height: 150px;
+    width: 400px;
+    display: flex;
+    margin-bottom: 250px;
+}
+.title{
+    position: relative;
+    top: 0;
+    font-size: 25px;
+    float: left;
+    font-weight: bold;
+    
+}
+
+
+.score{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+    top: 25px;
+    border-radius: 20px;
+    margin-left: 220px;
+}
+
+#felirat{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+}
+
+#count{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 40px;
+    color: black;
+    justify-content: center;
+    position: absolute;
+    
+}
+
+.options{
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    position: relative;
+    
+}
+
+.options div{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+}
+
+#rock{
+    background-color: white;
+    border: 15px solid var(--ko);
+    margin-top: 150px;
+    
+    
+}
+#paper{
+    background-color: white;
+    border: 15px solid var(--papir);
+    margin-right: 170px;
+}
+#scissors{
+    background-color: white;
+    border: 15px solid var(--ollo);
+    margin-left: 170px;
+}
+
+
+
+/*--------------------------------------------------------------------------*/
+
+
+
+.jatekosGomb{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 600px;
+    
+}
+
+#endRock{
+    background-color: white;
+    border: 15px solid var(--ko);
+    
+}
+#endPaper{
+    background-color: white;
+    border: 15px solid var(--papir);
+}
+#endScissors{
+    background-color: white;
+    border: 15px solid var(--ollo);
+}
+
+/*--------------------------------------------------------------------------*/
+#eredmeny{
+    margin-top: 100px;
+    margin-left: 940px;
+    font-size: 20px;
+    
+}
+
+.gepGomb{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 1200px;
+}
+
+#endRockGep{
+    background-color: white;
+    border: 15px solid var(--ko);
+    
+}
+#endPaperGep{
+    background-color: white;
+    border: 15px solid var(--papir);
+}
+#endScissorsGep{
+    background-color: white;
+    border: 15px solid var(--ollo);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
